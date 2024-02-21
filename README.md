@@ -1,5 +1,5 @@
 
-Contains the Research Paper studied From February 1, 2024
+Contains the Research Paper studied From the year 2024.
 
 # 2024
 ## January
@@ -11,12 +11,12 @@ Contains the Research Paper studied From February 1, 2024
 |  |  |  |  |
 ## February
 
-| S.N | Papers | Link | Date of Release |
-| ---- | ---- | ---- | ---- |
-| 1. | How Multilingual is Multilingual LLM? | [Paper](https://arxiv.org/pdf/2311.09071.pdf)<br>[Abstract](https://arxiv.org/abs/2311.09071) | November-2023 |
-| 2. | GENIE: ACHIEVING HUMAN PARITY IN CONTENT-GROUNDED DATASETS GENERATION | Paper<br>Abstract | January 2024 |
-| 3.  | Retrieval Meets large context Large Language Model | Paper<br>Abstract |  |
-|  |  |  |  |
+| S.N | Papers | Refernce | Link | Date of Release |
+| ---- | ---- | ---- | ---- | ---- |
+| 1. | How Multilingual is Multilingual LLM? | [Page](How_Multilingual_is_Multilingual_LLM) | [Paper](https://arxiv.org/pdf/2311.09071.pdf)<br>[Abstract](https://arxiv.org/abs/2311.09071) | November-2023 |
+| 2. | GENIE: ACHIEVING HUMAN PARITY IN CONTENT-GROUNDED DATASETS GENERATION |  | Paper<br>Abstract | January 2024 |
+| 3. | Retrieval Meets large context Large Language Model |  | Paper<br>Abstract |  |
+|  |  |  |  |  |
 
 ## March
 

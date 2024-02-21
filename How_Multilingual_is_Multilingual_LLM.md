@@ -1,13 +1,20 @@
 
-**Paper Link**: [https://arxiv.org/pdf/2311.09071.pdf](https://arxiv.org/pdf/2311.09071.pdf)
+---
+# Paper-1
+## How Multilingual is Multilingual LLM
+**Publication Link**: [https://arxiv.org/pdf/2311.09071.pdf](https://arxiv.org/pdf/2311.09071.pdf)
+**publication Date**: November 2023
+### Abstract:
+Large Language Models (LLMs), trained predominantly on extensive English data, often exhibit limitations when applied to other languages. Current research is primarily focused on enhancing the multilingual capabilities of these models by employing various tuning strategies. Despite their effectiveness in certain languages, the understanding of the multilingual abilities of LLMs remains incomplete. This study endeavors to evaluate the multilingual capacity of LLMs by conducting an exhaustive analysis across 101 languages, and classifies languages with similar characteristics into four distinct quadrants. By delving into each quadrant, we shed light on the rationale behind their categorization and offer actionable guidelines for tuning these languages. Extensive experiments reveal that existing LLMs possess multilingual capabilities that surpass our expectations, and we can significantly improve the multilingual performance of LLMs by focusing on these distinct attributes present in each quadrant
 
+---
 
-**Summary**
+### Publication Summary
 In this paper the authors explore how well LLMs can handle different languages.<br>In the study 101 languages are analyzed and are categorized into four groups.<br>The experiment have shown that LLMs have better multilingual capabilities than expected and focusing on special attributes can enhance performance.
 
 ---
 
-Some of the Highlight from the paper:
+**Highlights from the paper**:
 
 1.  **Limitations when applied to non-English languages**
 	- Models like GPT, PaLM, LLaMA are predominantly trained on English data
