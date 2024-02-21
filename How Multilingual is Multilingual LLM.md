@@ -23,7 +23,7 @@ Some of the Highlight from the paper:
 	- The authors evaluate the multilingual capacity of LLMs across 101 languages and classifies them into four distinct quadrants, shedding light on their categorization and offering guidelines for tuning these languages.
 	- _**They do not explicitly mention which of the quadrants consists certain languages, but what they have mentioned is languages from Indo-European Language family and Other Language family groups.**_
 	
-  ![[Pasted image 20240206104952.png]]
+![Multilingual-vs-bilingual](./Images/Multilingual-vs-bilingual.png)
 
 
 
