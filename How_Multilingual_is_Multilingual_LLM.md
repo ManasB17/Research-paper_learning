@@ -31,17 +31,12 @@ In this paper the authors explore how well LLMs can handle different languages.<
 	- _**They do not explicitly mention which of the quadrants consists certain languages, but what they have mentioned is languages from Indo-European Language family and Other Language family groups.**_
 	
 ![Multilingual-vs-bilingual](./Images/Multilingual-vs-bilingual.png)
-
-
-
 - The authors have provided with the list of language family list with their corresponding languages, yet it is unclear which specific languages they have used during training and evaluation for classifying them for each quadrant.
 - The listed language families for the experiment contains:  
     
     *Indo-European, Japonica, Koreanic, Afro-Asiatic, Dravidian, Turkic, Niger-Congo_*
 ---
-
 4. **Inherent Multilingual Capabilities** 
-   
    The researchers have observed the following by exploring the inherent multilingual capabilities  
     - Fine-tuning LLMs with bilingual data improves translation performance not only for the specific language pair but also for other language pairs.
     - Bilingual-tuned models show remarkable consistency in multilingual performance across multiple languages.
@@ -54,8 +49,8 @@ In this paper the authors explore how well LLMs can handle different languages.<
         - **Idle:**
             - Languages in the idle quadrant show minimal impact from existing tuning strategies.
         - **Selfish:**
-            - Training in a specific language in the selfish quadrant typically improves the performance of that language and has minimal impact on other languages.|
-
+            - Training in a specific language in the selfish quadrant typically improves the performance of that language and has minimal impact on other languages.
+---
 5. **Improving Capabilities** 
    Language Specific Guidelines.
 	- **Reciprocal Quadrant**:
@@ -74,10 +69,8 @@ In this paper the authors explore how well LLMs can handle different languages.<
 	    - Idle languages are characterized by over-tokenization, resulting in longer sequences and lower performance.
 	    - Shortening subword sequences can significantly boost the performance of idle languages by addressing the over-tokenization problem.
 	- **Selfish**: Default expected improvement
-	
-	  
-	**Conclusion:**
-	
-	- The suggested strategy for reciprocal languages is Embed FT.
-	- For altruistic languages, full FT with a minimal dataset is recommended for bilingual performance, while Embed FT is recommended for multilingual performance.
-	- Shortening sub-word sequences can enhance the performance of idle languages.|
+
+## **Conclusion:**
+- The suggested strategy for reciprocal languages is Embed FT.
+- For altruistic languages, full FT with a minimal dataset is recommended for bilingual performance, while Embed FT is recommended for multilingual performance.
+- Shortening sub-word sequences can enhance the performance of idle languages.
