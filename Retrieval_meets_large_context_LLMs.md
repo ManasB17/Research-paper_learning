@@ -2,7 +2,8 @@
 ---
 # RETRIEVAL MEETS LONG CONTEXT LARGE LANGUAGE MODELS
 
-**Publication Link**: [Link](https://arxiv.org/pdf/2310.03025.pdf) //
+**Publication Link**: [Link](https://arxiv.org/pdf/2310.03025.pdf) 
+
 **Publication Date**: January, 2024
 
 ### Abstract:
@@ -26,12 +27,13 @@ Extending the context window of large language models (LLMs) is getting popular 
 - The authors demonstrate that retrieval-augmentation, a method where relevant context is selected by a standalone retriever, significantly improves the performance of 4K context LLMs and can even enhance the performance of larger models like the Llama2-70B.
 - The study concludes that their best model, a retrieval-augmented Llama2-70B-32k, outperforms other models in terms of average score and generation speed, indicating the potential benefits of combining retrieval methods with long context LLMs.
 
+---
 
 ### Experiment setup summary
 
 - The experimental setup in this study focuses on comparing the zero-shot capability of integrating long context information for generative question answering or summarization tasks using large language models (LLMs), specifically two pretrained GPT models, GPT-43B and Llama2-70B.
-- The study uses seven datasets ranging from single document question answering to query-based summarization for zero-shot evaluations.(QMSum, Qasper, NarrativeQA, QuALITY, HotpotQA, MuSiQue, and MultiFieldQA-en)
-- The study also incorporates techniques like context window extension, retrieval using Dragon, Contriever, or OpenAI embeddings, and instruction tuning, where the LLMs are trained to follow instructions using a blend of datasets and a specific dialogue format.
+- The study uses seven datasets ranging from single document question answering to query-based summarization for zero-shot evaluations.(*QMSum, Qasper, NarrativeQA, QuALITY, HotpotQA, MuSiQue, and MultiFieldQA-en*)
+- The study also incorporates techniques like context window extension, retrieval using Dragon, Contriever, or OpenAI embedding, and instruction tuning, where the LLMs are trained to follow instructions using a blend of datasets and a specific dialogue format.
 
 #### Retrieval
 
@@ -43,7 +45,7 @@ For the experiment, three retriever were used
  1) **Dragon**:
 	- The authors used Dragon as it achieves state-of-the-art results on both supervised and zero-shot information retrieval benchmarks
 
-2) **Contriever model**
+2) **Contriver model**
 
 3) **OpenAI embedding**: For OpenAI embedding the authors have used latest “**text-embedding-ada-002**” as recommended by OpenAI. 
 	- It accepts 8,191 maximum input tokens for one sequence with an output vector of 1,536 dimensions.
@@ -53,16 +55,17 @@ The table below shows the statics of top N retrieved chunks:
 
 ![table](./Images/retriever.png)
 
+---
 
 ### Result
-The answered two question through this paper;  
-  
-
-1. Retrieval-augmentation versus long context window, which one is better for downstream tasks?
-2. Can both methods be combined to get the best of both worlds?
-
 The result answered this both question
 
 - The paper discusses the performance of different models, specifically GPT-43B and Llama2-70B, in tasks that require understanding of long context.
 - The authors found that models without retrieval performed poorly, especially at a 4k sequence length, because valuable text gets truncated due to the context window of the foundation models.
 - However, when retrieval was incorporated, there was a significant improvement in performance, with Llama2-70B showing a larger benefit from incorporating context through retrieval compared to GPT-43B
+
+### Conclusion
+
+The answered two question through this paper;  
+1. Retrieval-augmentation versus long context window, which one is better for downstream tasks?
+2. Can both methods be combined to get the best of both worlds?
