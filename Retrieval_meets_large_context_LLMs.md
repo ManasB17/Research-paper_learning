@@ -1,9 +1,8 @@
 
 ---
-# RETRIEVAL MEETS LONG CONTEXT LARGE LANGUAGE MODELS
-
+# Paper-3
+## RETRIEVAL MEETS LONG CONTEXT LARGE LANGUAGE MODELS
 **Publication Link**: [Link](https://arxiv.org/pdf/2310.03025.pdf) 
-
 **Publication Date**: January, 2024
 
 ### Abstract:
