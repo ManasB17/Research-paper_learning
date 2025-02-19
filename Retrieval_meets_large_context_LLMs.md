@@ -52,7 +52,7 @@ For the experiment, three retriever were used
 
 The table below shows the statics of top N retrieved chunks:
 
-![table](retriever.png)
+![table](images/retriever.png)
 
 ---
 
