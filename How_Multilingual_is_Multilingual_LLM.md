@@ -30,7 +30,7 @@ In this paper the authors explore how well LLMs can handle different languages.<
 	- The authors evaluate the multilingual capacity of LLMs across 101 languages and classifies them into four distinct quadrants, shedding light on their categorization and offering guidelines for tuning these languages.
 	- _**They do not explicitly mention which of the quadrants consists certain languages, but what they have mentioned is languages from Indo-European Language family and Other Language family groups.**_
 	
-![Multilingual-vs-bilingual](Multilingual-vs-bilingual.png)
+![Multilingual-vs-bilingual](Images/Multilingual-vs-bilingual.png)
 - The authors have provided with the list of language family list with their corresponding languages, yet it is unclear which specific languages they have used during training and evaluation for classifying them for each quadrant.
 - The listed language families for the experiment contains:  
     
