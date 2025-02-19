@@ -36,7 +36,7 @@ Extending the context window of large language models (LLMs) is getting popular 
 
 #### Retrieval
 
-![retriever-workflow](retrivere-working.png)
+![retriever-workflow](Images/retrivere-working.png)
 - To use these retrievers, we first chunk each context document with 300 words, and then we encode both the questions and all chunks independently with corresponding encoders.
 - The most relevant N chunks, ranked by the dot product of the question embedding and chunk embedding, are then concatenated together (following the left to right order from the most relevant to least relevant) as the context of the prompt for generation.
 
@@ -52,7 +52,7 @@ For the experiment, three retriever were used
 
 The table below shows the statics of top N retrieved chunks:
 
-![table](images/retriever.png)
+![table](Images/retriever.png)
 
 ---
 
